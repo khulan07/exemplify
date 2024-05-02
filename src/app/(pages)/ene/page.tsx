@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const Ene = () => {
-    const name = "JeEnelly"
+    const name = 'JeEnelly'
     const myFunc = () => {
         return (
             <div>"sainuu</div>
