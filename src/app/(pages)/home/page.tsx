@@ -9,7 +9,7 @@ import Login from '../../components/login'
 const Home = () => {
     const myFunc = () => {
         return (
-            <div>"sainuu</div>
+            <div>sainuu</div>
         )
     }
     const attributes = [
