@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image
+ from 'next/image'
 const Explore = () => {
   return (
     <>
@@ -59,14 +60,14 @@ const Explore = () => {
                     <div className="grid lg:grid-cols-2 gap-3">
                         <div className="grid grid-cols-2 lg:grid-cols-1 gap-3">
                         <figure className="relative w-full h-60">
-                            <img
+                            <Image
                             className="size-full absolute top-0 start-0 object-cover rounded-xl"
                             src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                             alt="Image Description"
                             />
                         </figure>
                         <figure className="relative w-full h-60">
-                            <img
+                            <Image
                             className="size-full absolute top-0 start-0 object-cover rounded-xl"
                             src="https://images.unsplash.com/photo-1671726203638-83742a2721a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                             alt="Image Description"
@@ -74,7 +75,7 @@ const Explore = () => {
                         </figure>
                         </div>
                         <figure className="relative w-full h-72 sm:h-96 lg:h-full">
-                        <img
+                        <Image
                             className="size-full absolute top-0 start-0 object-cover rounded-xl"
                             src="https://images.unsplash.com/photo-1671726203394-491c8b574a0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80"
                             alt="Image Description"
@@ -111,7 +112,7 @@ const Explore = () => {
                     <p className="mt-5 text-gray-800">Nicole Grazioso</p>
                     </blockquote>
                     <figure>
-                    <img
+                    <Image
                         className="w-full object-cover rounded-xl"
                         src="https://images.unsplash.com/photo-1671726203454-488ab18f7eda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                         alt="Image Description"
@@ -137,7 +138,7 @@ const Explore = () => {
                     <li className="ps-2">
                         Preline allows us to collaborate in real time and is a really
                         great way for leadership on the team to stay up-to-date with
-                        what everybody is working on,"{" "}
+                        what everybody is working on, {" "}
                         <a
                         className="text-blue-600 decoration-2 hover:underline font-medium"
                         href="#"
@@ -148,7 +149,7 @@ const Explore = () => {
                     </li>
                     <li className="ps-2">
                         Preline opened a new way of sharing. Ia persistent way for
-                        everyone to see and absorb each othe work," said David Scott,
+                        everyone to see and absorb each othe work, said David Scott,
                         Creative Director at{" "}
                         <a
                         className="text-blue-600 decoration-2 hover:underline font-medium"
@@ -375,7 +376,7 @@ const Explore = () => {
                 {/* Avatar Media */}
                 <div className="group flex items-center gap-x-3 border-b border-gray-200 pb-8 mb-8">
                     <a className="block flex-shrink-0" href="#">
-                    <img
+                    <Image
                         className="size-10 rounded-full"
                         src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
                         alt="Image Description"
@@ -425,7 +426,7 @@ const Explore = () => {
                         </span>
                     </div>
                     <div className="flex-shrink-0 relative rounded-lg overflow-hidden size-20">
-                        <img
+                        <Image
                         className="size-full absolute top-0 start-0 object-cover rounded-lg"
                         src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
                         alt="Image Description"
@@ -442,7 +443,7 @@ const Explore = () => {
                         </span>
                     </div>
                     <div className="flex-shrink-0 relative rounded-lg overflow-hidden size-20">
-                        <img
+                        <Image
                         className="size-full absolute top-0 start-0 object-cover rounded-lg"
                         src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
                         alt="Image Description"
@@ -458,7 +459,7 @@ const Explore = () => {
                         </span>
                     </div>
                     <div className="flex-shrink-0 relative rounded-lg overflow-hidden size-20">
-                        <img
+                        <Image
                         className="size-full absolute top-0 start-0 object-cover rounded-lg"
                         src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
                         alt="Image Description"

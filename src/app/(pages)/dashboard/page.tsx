@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Dashboard = () => {
   return (
@@ -153,7 +154,7 @@ const Dashboard = () => {
                     type="button"
                     className="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
                     >
-                    <img
+                    <Image
                         className="inline-block size-[38px] rounded-full ring-2 ring-white"
                         src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
                         alt="Image Description"
@@ -1168,7 +1169,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                                     alt="Image Description"
@@ -1265,7 +1266,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                                     alt="Image Description"
@@ -1459,7 +1460,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80"
                                     alt="Image Description"
@@ -1653,7 +1654,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                                     alt="Image Description"
@@ -1750,7 +1751,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1659482634023-2c4fda99ac0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80"
                                     alt="Image Description"
@@ -1847,7 +1848,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1601935111741-ae98b2b230b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
                                     alt="Image Description"
@@ -2041,7 +2042,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                                     alt="Image Description"
@@ -2235,7 +2236,7 @@ const Dashboard = () => {
                             <td className="size-px whitespace-nowrap">
                             <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                                 <div className="flex items-center gap-x-3">
-                                <img
+                                <Image
                                     className="inline-block size-[38px] rounded-full"
                                     src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
                                     alt="Image Description"
