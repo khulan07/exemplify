@@ -18,7 +18,7 @@ const Footer = () => {
             {/* End Col */}
             <div className="mt-3">
                 <p className="text-gray-500">
-                We're part of the{" "}
+                We&apos;re part of the{" "}
                 <a
                     className="font-semibold text-blue-600 hover:text-blue-700"
                     href="#"

@@ -46,13 +46,13 @@ const Explore = () => {
                     </div>
                     <p className="text-lg text-gray-800">
                     At preline, our mission has always been focused on bringing
-                    openness and transparency to the design process. We've always
+                    openness and transparency to the design process. always
                     believed that by providing a space where designers can share
                     ongoing work not only empowers them to make better products, it
                     also helps them grow.
                     </p>
                     <p className="text-lg text-gray-800">
-                    We're proud to be a part of creating a more open culture and to
+                    We&apos;re proud to be a part of creating a more open culture and to
                     continue building a product that supports this vision.
                     </p>
                     <div className="text-center">
@@ -86,14 +86,14 @@ const Explore = () => {
                     </span>
                     </div>
                     <p className="text-lg text-gray-800">
-                    As we've grown, we've seen how Preline has helped companies such
+                    As we&apos;ve grown, we&apos;ve seen how Preline has helped companies such
                     as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their
-                    designers closer together to create amazing things. We've also
+                    designers closer together to create amazing things. We&apos;ve also
                     learned that when the culture of sharing is brought in earlier,
                     the better teams adapt and communicate with one another.
                     </p>
                     <p className="text-lg text-gray-800">
-                    That's why we are excited to share that we now have a{" "}
+                    That&apos;s why we are excited to share that we now have a{" "}
                     <a
                         className="text-blue-600 decoration-2 hover:underline font-medium"
                         href="#"
@@ -144,11 +144,11 @@ const Explore = () => {
                         >
                         said
                         </a>{" "}
-                        Stewart Scott-Curran, Intercom's Director of Brand Design.
+                        Stewart Scott-Curran, Intercom&apos;s Director of Brand Design.
                     </li>
                     <li className="ps-2">
-                        Preline opened a new way of sharing. It's a persistent way for
-                        everyone to see and absorb each other's work," said David Scott,
+                        Preline opened a new way of sharing. Ia persistent way for
+                        everyone to see and absorb each othe work," said David Scott,
                         Creative Director at{" "}
                         <a
                         className="text-blue-600 decoration-2 hover:underline font-medium"
@@ -162,7 +162,7 @@ const Explore = () => {
                     <p className="text-lg text-gray-800">
                     Small teams and individual designers need a space where they can
                     watch the design process unfold, both for themselves and for the
-                    people they work with – no matter if it's a fellow designer,
+                    people they work with no matter if it&apos;s a fellow designer,
                     product manager, developer or client. Preline allows you to invite
                     more people into the process, creating a central place for
                     conversation around design. As those teams grow, transparency and
