@@ -6,3 +6,7 @@
 /*  margin: 0 auto;          /* Centers the content horizontally */
 /*  max-width: 80%;         /* Restricts the content width for larger screens */
 /*  padding: 0 20px;        /* 0 padding on top/bottom, 20px on left/right */
+
+body {
+    background-color: #171717
+}
