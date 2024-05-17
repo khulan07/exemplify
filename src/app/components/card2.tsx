@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Card2 = (props: any) => {
   const { user } = useUser();
   return (
-    <div onClick={props.openFunction} className="relative w-full aspect-[4/3] rounded-lg transform hover:scale-105 duration-150 shadow-lg">
+    <div onClick={props.openFunction} className="relative my-6 w-full aspect-[4/3] rounded-lg transform hover:scale-105 duration-150 shadow-lg">
         <Image
         src={props.item.found_item_image_url}
         alt='image'

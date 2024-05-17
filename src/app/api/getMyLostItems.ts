@@ -1,39 +1,20 @@
-'use server';
-import { sql } from '@vercel/postgres';
+"use server";
+import { sql } from "@vercel/postgres";
 
-interface LostItem {
-    id: number;
-    title: string;
-    postcreateddate: Date;
-    description: string;
-    location: string;
-    lostdate: Date;
-    postcreator_id: number;
-    postcreator_username: string;
-    itemstatus: string;
-}
-
-export default async function getUserLostItems(userId: number): Promise<LostItem[]> {
+export default async function getMyLostItems(userId: string) {
+    console.log("INVOKED")
     const client = await sql.connect();
-
     try {
-        const { rows } = await client.query<LostItem>({
-            text: `
-                SELECT * FROM LostItems WHERE postcreator_id = $1
-            `,
-            values: [userId]
-        });
-        return rows;
+        const { rows } = await client.sql`
+        SELECT * FROM lost_items WHERE author_id = ${userId};
+        `;
+        console.log("returning: ", rows)
+        return rows; // Return the array of found item data
     } catch (error) {
-        console.error('Error retrieving user\'s lost items:', error);
-        throw error;
+        console.error("Error fetching found items:", error);
+        // Optionally, re-throw or return a custom error object
+        throw error; // or return { error: "Failed to fetch found items" }
     } finally {
         client.release();
     }
 }
-
-// Example usage
-const userId = 123; // Replace with actual user ID
-getUserLostItems(userId)
-    .then(lostItems => console.log('User\'s lost items:', lostItems))
-    .catch(error => console.error('Error:', error));
