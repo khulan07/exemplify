@@ -13,23 +13,35 @@ const FoundModal = (props: any) => {
                     {/* Avatar Media */}
                     <div className="flex justify-between items-center mb-6">
                     {/* Avatar */}
-                    <div className="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
+                    <div className="flex row w-full sm:items-center gap-x-5 sm:gap-x-3">
                         <div className="flex-shrink-0">
                         </div>
                         {/* Author Info */}
-                        <div className="flex-grow">
-                        <div className="flex justify-between items-center gap-x-2">
-                            <div>
-                            {/* Author Name */}
-                            <span className="font-semibold text-gray-800">{props.item.author_username ?? "Anonymous"}</span>
+                        <div className="text-left flex-grow">
+                            <div className="flex flex-row justify-between items-center gap-x-2">
+                                <div className='flex flex-row justify-between'>
+                                {/* Author Name */}
+                                <Image
+                                    src={props.item.author_avatar_url}
+                                    alt={`${props.item.author_username}'s avatar`}
+                                    width={30}
+                                    height={30}
+                                    className='rounded-full mb-2 mr-2'
+                                />
+                                <span className="font-semibold text-gray-800 mt-1">{props.item.author_username ?? "Anonymous"}</span>
+                                </div>
                             </div>
-                        </div>
                         {/* Date and Read Time */}
-                        <ul className="text-xs text-gray-500">
-                            <li className="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full">
-                                {props.item.created_at.toLocaleDateString()} 
-                            </li>
-                        </ul>
+                            <ul className="text-xs text-gray-500">
+                                <li className="inline-block relative pe-6 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-2 before:-translate-y-1/2 before:size-1 before:bg-gray-300 before:rounded-full">
+                                    {props.item.created_at.toLocaleDateString()} 
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='text-gray-700 text-sm'>
+                            <p>Found the item at: {props.item.location}</p>
+                            <p>Found date: {props.item.found_date}</p>
+
                         </div>
                     </div>
                     </div>
@@ -45,7 +57,7 @@ const FoundModal = (props: any) => {
                     </div>
 
                     {/* Image */}
-                    <div className="relative w-full mx-auto flex justify-center items-center align-middle"> {/* Maintain aspect ratio using the parent div */}
+                    <div className="relative w-full mx-auto flex justify-center items-center"> {/* Maintain aspect ratio using the parent div */}
                         <Image
                             src={props.item.found_item_image_url}
                             alt="Image Description"

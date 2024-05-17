@@ -10,7 +10,7 @@ const nextConfig = {
         ];
       },
     images: {
-      domains: ["utfs.io", 'cdn.discordapp.com'],
+      domains: ["utfs.io", 'cdn.discordapp.com', "img.clerk.com"],
       // Add any other domains you need here
     },
 };
