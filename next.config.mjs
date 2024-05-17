@@ -9,6 +9,10 @@ const nextConfig = {
           },
         ];
       },
+    images: {
+      domains: ["utfs.io", 'cdn.discordapp.com'],
+      // Add any other domains you need here
+    },
 };
 
 export default nextConfig;

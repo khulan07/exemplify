@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(pages)/(redirects)/home", "src/app/(pages)/(redirects)/home", "src/app/(pages)/(redirects)/home"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(pages)/(redirects)/home", "src/app/(pages)/(redirects)/home", "src/app/(pages)/(redirects)/home", "src/app/components/lostItemsDisplay.jsx"],
   "exclude": ["node_modules"]
 }
