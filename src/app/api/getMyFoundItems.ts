@@ -2,7 +2,7 @@
 import { sql } from "@vercel/postgres";
 
 export default async function getMyFoundItems(userId: string) {
-    console.log("INVOKED")
+    console.log("INVOKED MY COMMAND-----------------")
     const client = await sql.connect();
     try {
         const { rows } = await client.sql`

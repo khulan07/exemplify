@@ -6,12 +6,13 @@ import Card from './card'
 import FoundModal from './modals/foundModal'
 
 
-const DisplayMyLostItems = ({myFoundItems}: any) => {
+const DisplayMyLostItems = ({myItems}: any) => {
     const [foundItem, setFoundItem] = useState<any>(null);
+    console.log(myItems)
     return (
         <>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 duration-300">
-                {myFoundItems?.map((item: any, index: any) => (
+                {myItems?.map((item: any, index: any) => (
                     <Card
                         key={index}
                         item={item}

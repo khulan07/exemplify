@@ -10,9 +10,10 @@ import DisplayMyLostItems from '@/app/components/displayMyLostItems'
 
 const Dashboard = async () => {
     const user = await currentUser();
+    console.log("GOT THE USER: ", user)
     const myFoundItems = await getMyFoundItems(user?.id ?? "");
-    const myLostitems = await getMyLostItems(user?.id ?? "");
-    console.log("what", myLostitems)
+    const myLostItems = await getMyLostItems(user?.id ?? "");
+    console.log("what", myLostItems)
   return (
     <>
         {/* Card Blog */}
@@ -23,8 +24,14 @@ const Dashboard = async () => {
                     My listings
                 </h2>
             </div>
+            <h2 className="text-2xl text-neutral-200 font-bold md:text-4xl md:leading-tight">
+                My Found Items:
+            </h2>
             <DisplayMyFoundItems myItems={myFoundItems} />
-            <DisplayMyLostItems myItems={myLostitems} />
+            <h2 className="text-2xl text-neutral-200 mt-32 font-bold md:text-4xl md:leading-tight">
+                My Lost Items:
+            </h2>
+            <DisplayMyLostItems myItems={myLostItems} />
         </div>
     </>
   )

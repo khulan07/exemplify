@@ -6,12 +6,13 @@ import Card2 from './card2'
 import FoundModal from './modals/foundModal'
 
 
-const DisplayMyFoundItems = ({myFoundItems}: any) => {
+const DisplayMyFoundItems = ({myItems}: any) => {
     const [foundItem, setFoundItem] = useState<any>(null);
+    console.log("TEHCA HERO TO", myItems)
     return (
         <>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 duration-300">
-                {myFoundItems?.map((item: any, index: any) => (
+                {myItems?.map((item: any, index: any) => (
                     <Card2 
                         key={index}
                         item={item}
