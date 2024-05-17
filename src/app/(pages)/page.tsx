@@ -8,7 +8,6 @@ import saveUser from '../api/saveUser';
 //Components
 import Header from "../components/homeHeader"
 import HomeBody from '../components/homeBody'
-import HomeStories from '../components/homeStories'
 
 // Last edited by Ene
 const HomePage = () => {
@@ -32,8 +31,6 @@ const HomePage = () => {
   return (
     <div>
         <Header />
-        <HomeBody />
-        <HomeStories />
     </div>
   )
 }
