@@ -7,7 +7,6 @@ import saveUser from '../api/saveUser';
 
 //Components
 import Header from "../components/homeHeader"
-import HomeBody from '../components/homeBody'
 
 // Last edited by Ene
 const HomePage = () => {

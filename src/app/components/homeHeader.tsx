@@ -87,7 +87,7 @@ const componentHeader = () => {
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm lg:text-base text-neutral-400">
                     <span className="text-white">Smart Search: </span>
-                        Find lost items effortlessly using our powerful search filters. Refine your search by category, keywords, location, and date to increase your chances of finding what you're looking for.
+                        Find lost items effortlessly using our powerful search filters. Refine your search by category, keywords, location, and date to increase your chances of finding what you are looking for.
                     </p>
                 </div>
                 {/* End Right Content */}
@@ -151,7 +151,7 @@ const componentHeader = () => {
                 Contact us
             </h2>
             <p className="mt-1 text-neutral-400">
-            Have questions, feedback, or need help with Whitbox? We're here to assist you!
+            Have questions, feedback, or need help with Whitbox? We are here to assist you!
             </p>
             </div>
             {/* End Title */}
@@ -407,9 +407,9 @@ const componentHeader = () => {
                     <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
                 </svg>
                 <div className="grow">
-                    <h4 className="text-white font-semibold">Let's Connect!</h4>
+                    <h4 className="text-white font-semibold">Let&apos;s Connect!</h4>
                     <p className="mt-1 text-neutral-400">
-                    We'd love to hear from you! You can use the form to send us a message
+                    We&apos;d love to hear from you! You can use the form to send us a message
                     </p>
                 </div>
                 </div>

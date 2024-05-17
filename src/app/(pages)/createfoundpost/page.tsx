@@ -63,7 +63,7 @@ const CreateFoundPost = () => {
             <div className="bg-white rounded-xl shadow">
             <div className="text-center mb-2 pt-16 pb-6">
                 <h2 className="text-2xl md:text-3xl font-bold text-neutral-800">
-                    Add a new listing for an item you've found
+                    Add a new listing for an item you have found
                 </h2>
                 <p className="text-sm mt-6 text-gray-500">
                     Be sure to provide accurate and detailed information for the best result
