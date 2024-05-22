@@ -25,7 +25,7 @@ const Card2 = (props: any) => {
               </div>
 
               <div>
-                <h3 className="mt-0.5 text-md font-bold text-gray-900 truncate">{props.item.title}</h3>
+                 <h3 className="mt-0.5 text-md font-bold text-gray-900 truncate">{props.item.title}</h3>
               </div>
 
               <p className="mt-2 line-clamp-2 text-xs/relaxed text-gray-500 text-left truncate">
